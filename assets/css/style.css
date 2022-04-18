@@ -2,6 +2,7 @@ body{
     background-color: #151515;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
 }
 
 .cabecalho{
@@ -58,4 +59,57 @@ body{
     padding-left: 8%;
     padding-bottom: 8%;
 
+}
+
+.tour{
+    display: flex;
+    
+    padding-top: 10%;
+}
+
+.tour_text{
+    padding-left: 3%;
+    width: 40%;
+}
+
+.tour_text h3{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f2d17a;
+}
+
+.tour_text p{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #e7e7e7;
+    width: 78%;
+    
+}
+
+.tour_images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tour_image-1{
+    background-image: url('../img/image-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 449px;
+    width: 335px;
+    margin-left: 2%;
+}
+
+.tour_image-2{
+    background-image: url('../img/image-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 449px;
+    width: 335px;
+    margin-left: 2%;
 }
