@@ -65,6 +65,7 @@ body{
     display: flex;
     
     padding-top: 10%;
+    padding-bottom: 4%;
 }
 
 .tour_text{
@@ -112,4 +113,14 @@ body{
     height: 449px;
     width: 335px;
     margin-left: 2%;
+}
+
+.back2{
+    background-image: url('../img/back2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
