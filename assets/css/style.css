@@ -1,0 +1,35 @@
+body{
+    background-color: #151515;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.cabecalho{
+    background-image: url('../img/imagem__cabeçalho.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    font-family: 'Playfair Display', serif;
+    color: #e7e7e7;
+    margin: 0;
+    padding-top: 4%;
+    padding-left: 4%;
+    font-size: 40px;
+}
+
+.info-container{
+    background-color: #151515;
+    width: 777px;
+    height: 333px;
+    margin-top: 13%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
